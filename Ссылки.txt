@@ -1,0 +1,20 @@
+https://github.com/gorilla/websocket/tree/main/examples/chat
+
+{
+ "name": "dog-party",
+ "version": "1.0.0",
+ "description": "Dog Party starter kit using webpack and SCSS/SASS enabled.",
+ "main": "index.js",
+ "homepage": "http://Xlebspovidlom.github.io/Xlebspovidlom.github.io",
+ "repository": {
+ "type": "git",
+ "url": "git+https://github.com/Xlebspovidlom/Xlebspovidlom.github.io.git"
+ },
+ "scripts": {
+ "start": "webpack server",
+ "build": "webpack",
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d dist"
+ },
+ "author": "Turing School of Software and Design",
+}
